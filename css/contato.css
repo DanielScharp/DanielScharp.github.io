@@ -1,0 +1,111 @@
+.caixa {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgba(19, 18, 18, 0.794);
+    border-radius: 10px;
+}
+
+.contato-conteudo {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 40px;
+}
+
+h2.contato {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Pacifico, cursive;
+    padding: 65px 0 65px 0;
+    font-weight: 700;
+    border-radius: 10px 10px 0 0;
+    background-color: rgba(255, 255, 255, 0.938);
+}
+
+.fa {
+    color: white;
+    font-size: 2em;
+}
+
+.fa-phone {
+    transform: rotate(100deg);
+}
+
+.item {
+    color: white;
+}
+
+p {
+    margin-bottom: 0;
+    color: white;
+}
+
+p.fim {
+    padding-bottom: 20px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	background-image: linear-gradient(to right, transparent, #CCC, transparent);  
+}
+
+.cont {
+    color: white;
+    margin: 0 20px;
+    text-align: center;
+}
+.cont:hover {
+    color: #03e9f4;
+    transition: 1s;
+}
+
+div.link-icons {
+    color: rgb(158, 0, 0);
+    font-size: 2em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media (min-width: 200px) {
+    h2.contato {
+        font-size: 1.9em;
+    }
+
+    .contato-conteudo {
+        display: block;
+        margin: 20px;
+    }
+
+    .mg-tp {
+        margin-top: 25px;
+    }
+
+    .cont {
+        margin: 0;
+    }
+    
+    p.fim {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 700px) {
+    .contato-conteudo {
+        display: flex;
+        margin: 20px;
+    }
+
+    h2.contato {
+    font-size: 3em;
+    }
+
+    .cont {
+        margin: 0 15px;
+    }
+} 
+
+@media (min-width: 1300px) {
+    .contato-conteudo {
+        margin: 20px 50px;
+    }
+}

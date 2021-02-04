@@ -1,0 +1,44 @@
+footer {
+	background: #000;
+	padding: 20px 0 10px 0px;
+	text-align: center;
+}
+
+footer a {
+	color: white;
+	font-size: 1.4rem;
+	text-align: center;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+footer a:hover {
+	color: #9bf0e1;
+	text-decoration: none;
+	transition: color 1s;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	background-image: linear-gradient(to right, transparent, #CCC, transparent);  
+}
+
+footer p {
+	margin: 0;
+	color: #ffffffce;
+}
+
+.bi-linkedin {
+	color: rgb(17, 111, 173);
+}
+.bi-linkedin:hover {
+	color:  #9bf0e1;
+}
+
+.bi-whatsapp {
+	color: rgb(5, 170, 41);
+}
+.bi-whatsapp:hover {
+	color:  #9bf0e1;
+}

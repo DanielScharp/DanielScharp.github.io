@@ -1,0 +1,166 @@
+html, body {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	background: url(../imagens/capa1.png),
+				url(../imagens/ruido.png),
+				linear-gradient(50deg,#0b2727,#009b7e);
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+}
+.titulo-projetos {
+    text-align: center;
+}
+  
+.botao {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(33, 170, 175);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: rgb(15, 38, 39);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: background 0.4s;
+}
+section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    flex-wrap: wrap;
+    z-index: 1;
+    margin: 0 auto;
+}
+  
+section .card {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px #12121280;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ffffff80;
+    border-left: 1px solid #ffffff80;
+    backdrop-filter: blur(2px);
+}
+
+  
+section .card .item {
+    padding: 20px;
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    
+}
+  
+section .card:hover .item {
+    transform: translateY(0px);
+    opacity: 1;
+}
+  
+section .card .item h2 {
+    position: absolute;
+    top: -80px;
+    right: 20px;
+    font-weight: 800;
+    font-size: 8em;
+	letter-spacing: -0.06em;
+    pointer-events: none;
+    color: #ffffff57;
+}
+  
+section .card .item h3 {
+    font-size: 1.8em;
+    color: #fff;
+    z-index: 1;
+}
+  
+section .card .item p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+
+.card-1 {
+    background: url(../imagens/card1.jpg);
+}
+.card-1:hover {
+    transition: background .5s;
+    background: url(../imagens/card1h.png);
+}
+
+.card-2 {
+    background: url(../imagens/card2.jpg);
+}
+.card-2:hover {
+    background: url(../imagens/card2h.png);
+    transition: background .5s;
+}
+
+.card-3 {
+    background: url(../imagens/card3.jpg);
+}
+.card-3:hover {
+    background: url(../imagens/card3h.png);
+    transition: background .5s;
+}
+.card-4 {
+    background: url(../imagens/card4.jpg);
+}
+.card-4:hover {
+    transition: background .5s;
+    background: url(../imagens/card4h.png);
+}
+
+.card-5 {
+    background: url(../imagens/card5.jpg);
+}
+.card-5:hover {
+    transition: background .5s;
+    background: url(../imagens/card5h.png);
+}
+
+.card-6 {
+    background: url(../imagens/card6.jpg);
+}
+
+.card-6:hover {
+    transition: background .5s;
+    background: url(../imagens/card6h.png);
+}
+
+@media (min-width: 500px) and (max-width:699.99px){
+    .titulo-projetos {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 700px) and (max-width:999.99px) {
+    .titulo-projetos {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 1000px) and (max-width:1299.99px) {
+    .titulo-projetos {
+        font-size: 3rem;
+    }
+}
+
+@media(min-width: 1300px) {
+    .titulo-projetos {
+        font-size: 4rem;
+    }
+}
