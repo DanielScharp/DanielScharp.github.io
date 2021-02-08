@@ -1,237 +1,355 @@
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
-html, body {
-	height: 100%;
-	overflow-x: hidden;
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
 }
 
 #home {
-	height: calc(100% - 80px);
+  height: calc(100% - 80px);
 }
 
 body {
-	background: url(../imagens/capa1.png),
-				url(../imagens/ruido.png),
-				linear-gradient(50deg,#0b2727,#009b7e);
-	background-attachment: fixed;
-	font-family: Helvetica,Arial,sans-serif;
+  background: url(../imagens/capa1.png), url(../imagens/ruido.png),
+    linear-gradient(50deg, #0b2727, #009b7e);
+  background-attachment: fixed;
+  font-family: Helvetica, Arial, sans-serif;
 }
 .container {
-	width: 100%;
+  width: 100%;
 }
 
+/* -----------------------------*/
+div.center {
+  margin: 30px 30px;
+}
 
-/* Estrutura conteúdos
------------------------------*/
-.center h3, .center h2 {
-	text-align: center;
+.center h3,
+.center h2 {
+  text-align: center;
 }
 .center p {
-	text-align: justify;
+  text-align: justify;
 }
 
 #servicos {
-	background: white;
+  background: white;
 }
 
 #recursos {
-	color: white;
+  color: white;
 }
 
-#servicos h2, h3 {
-	color: #009b7e;
+#servicos h2,
+h3 {
+  color: #009b7e;
 }
 
 #servicos h2::after {
-	content: '|';
-	margin-left: 5px;
-	opacity: 1;
-	animation: pisca .7s infinite;
+  content: "|";
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca 0.7s infinite;
 }
 
 @keyframes pisca {
-	0%, 100% {
-		opacity: 1;
-	}
+  0%,
+  100% {
+    opacity: 1;
+  }
 
-	50% {
-		opacity: 0;
-	}
+  50% {
+    opacity: 0;
+  }
 }
 
 #recursos h2 {
-	color: white;
+  color: white;
 }
 
 #recursos h3 {
-	color: #03e9f4;
+  color: #03e9f4;
 }
 
 .albuns {
-	padding: 5px 0;
+  padding: 5px 0;
 }
 
 .rotacionar {
-	-ms-transform: rotate(30deg); /* IE 9 */
-    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
-    transform: rotate(30deg);
-	padding-left: 80px;
+  -ms-transform: rotate(30deg); /* IE 9 */
+  -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+  transform: rotate(30deg);
+  padding-left: 80px;
 }
 
-
-/* Tipografia
------------------------------*/
+/* -----------------------------*/
 
 .bootstrap {
-	color: blueviolet;
+  color: blueviolet;
 }
 
 .bg-bootstrap {
-	background: blueviolet;
-	background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
-    background-size: 1rem 1rem;
+  background: blueviolet;
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 1rem 1rem;
 }
 
 .i-html5 {
-	color: rgb(233, 74, 0);
+  color: rgb(233, 74, 0);
 }
 
-.bg-html5{
-	background:  rgb(233, 74, 0);
-	background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
-    background-size: 1rem 1rem;
+.bg-html5 {
+  background: rgb(233, 74, 0);
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 1rem 1rem;
 }
 
 h1 {
-	font-weight: 900;
-	font-family: Pacifico, cursive;
-	letter-spacing: -0.05em;
-	color:rgb(246, 246, 246);
-	text-shadow: 2px 2px 7px black;
+  font-weight: 900;
+  font-family: Pacifico, cursive;
+  letter-spacing: -0.05em;
+  color: rgb(246, 246, 246);
+  text-shadow: 2px 2px 7px black;
 }
 
 .h2capa {
-	color: rgb(255, 255, 255);
-	font-family: Pacifico, cursive;
-	font-size: 2.2em;
-	font-weight: 700;
-	letter-spacing: .09em;
-	text-shadow: 2px 2px 7px black;
+  color: rgb(255, 255, 255);
+  font-family: Pacifico, cursive;
+  font-size: 2.2em;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-shadow: 2px 2px 7px black;
 }
 
 .titulo {
-	font-weight: 700;
-	font-size: 2.2em;
-	letter-spacing: .04em;
-	margin: 20px;
+  font-weight: 700;
+  font-size: 2.2em;
+  letter-spacing: 0.04em;
+  margin: 20px;
+}
+
+/* --------------- */
+div.sintese {
+  text-align: center;
 }
 
 h3 {
-	font-size: 2em;
-	font-weight: 700;
-	letter-spacing: -0.04em;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  margin: 25px 0;
 }
 
+div.item {
+  width: 210px;
+  height: 250px;
+  border-radius: 10px 10px 0 0;
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  display: block;
+  margin: 20px auto;
+}
 
-/* Extra small devices (portrait phones, less than 576px)*/
+div.item:hover {
+  background-color: rgba(207, 207, 207, 0.979);
+  transform: translateY(-5px);
+  transition: 0.4s;
+}
+
+div.item h4 {
+  color: black;
+  font-weight: bold;
+}
+
+img.item-img {
+  width: 60px;
+  margin: 10px auto;
+}
+
+.html {
+  border-bottom: 3px solid #e44d26;
+}
+
+.css {
+  border-bottom: 3px solid #0277bd;
+}
+
+.bootstrap {
+  border-bottom: 3px solid #673ab7;
+}
+
+.javascript {
+  border-bottom: 3px solid #ffd600;
+}
+
+@media (max-width: 250px) {
+  div.item {
+    width: 180px;
+    height: 220px;
+  }
+}
+
 @media (max-width: 575.98px) {
-	.albuns{
-		display: none;
-	}
+  .albuns {
+    display: none;
+  }
 
-	h2 {
-		text-align: center;
-		padding-bottom: 10px;
-	}
-	.img-dan {
-		display: none;
-	}
-	.titulo {
-		font-weight: 600;
-		font-size: 2.2em;
-		letter-spacing: -0.09em;
-		margin: 20px;
-	}
-	.h2capa {
-		color: rgb(255, 255, 255);
-		font-family: Pacifico, cursive;
-		font-size: 2.2em;
-		font-weight: 500;
-		letter-spacing: -.03em;
-		text-shadow: 2px 2px 7px black;
-	}
-	h1 {
-		font-size: 2em;
-	}
+  h2 {
+    padding-bottom: 10px;
+  }
+  .img-dan {
+    display: none;
+  }
+  .titulo {
+    font-weight: 600;
+    font-size: 2.2em;
+    letter-spacing: -0.09em;
+    margin: 20px;
+  }
+  .h2capa {
+    color: rgb(255, 255, 255);
+    font-family: Pacifico, cursive;
+    font-size: 2.2em;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    text-shadow: 2px 2px 7px black;
+  }
+  h1 {
+    font-size: 2em;
+  }
 }
 
-/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-	h1 {
-		font-size: 3em;
-	}	
-	.albuns{
-		display: none;
-	}
-	.img-dan {
-		display: none;
-	}
-	.titulo {
-		font-weight: 600;
-		font-size: 2.2em;
-		letter-spacing: -0.09em;
-		margin: 20px;
-	}	
+  h1 {
+    font-size: 3em;
+  }
+  .albuns {
+    display: none;
+  }
+  .img-dan {
+    display: none;
+  }
+  .titulo {
+    font-weight: 600;
+    font-size: 2.2em;
+    letter-spacing: -0.09em;
+    margin: 20px;
+  }
+
+  div.itens {
+    display: flex;
+  }
 }
 
-/* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-	.img-dan {
-		display: none;
-	}
-	.titulo {
-		font-weight: 600;
-		font-size: 2.2em;
-		letter-spacing: -0.09em;
-		margin: 20px;
-	}	
+  .img-dan {
+    display: none;
+  }
+  .titulo {
+    font-weight: 600;
+    font-size: 2.2em;
+    letter-spacing: -0.09em;
+    margin: 20px;
+  }
+
+  div.itens {
+    display: flex;
+  }
 }
 
-/* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-	h1 {
-		font-size: 4em;
-	}
-	.titulo {
-		font-weight: 600;
-		font-size: 2.2em;
-		letter-spacing: -0.09em;
-		margin: 20px;
-	}	
+  h1 {
+    font-size: 4em;
+  }
+  .titulo {
+    font-weight: 600;
+    font-size: 2.2em;
+    letter-spacing: -0.09em;
+    margin: 20px;
+  }
+
+  div.sinteses {
+    display: flex;
+  }
+
+  div.itens {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  div.item {
+    margin: 0 10px;
+  }
 }
 
-/* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-	h1 {
-		font-size: 4.7em;
-	}
-	p {
-		font-size: 1.2rem;
-	}
-	.container {
-		max-width: 1540px;
-	}
-	a {
-		font-size: 1.7rem;
-	}
-	.titulo {
-		font-weight: 600;
-		font-size: 2.2em;
-		letter-spacing: -0.09em;
-		margin: 20px;
-	}	
+  h1 {
+    font-size: 4.7em;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  .container {
+    max-width: 1540px;
+  }
+  a {
+    font-size: 1.7rem;
+  }
+  .titulo {
+    font-weight: 600;
+    font-size: 2.2em;
+    letter-spacing: -0.09em;
+    margin: 20px;
+  }
+
+  div.sinteses {
+    display: flex;
+  }
+
+  div.itens {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  div.item {
+    margin: 0 2.4em;
+  }
+}
+
+@media (min-width: 1300px) {
+  div.item {
+    margin: 0 3.3em;
+  }
+}
+
+@media (min-width: 1500px) {
+  div.item {
+    margin: 0 5em;
+  }
 }
 
 
