@@ -161,7 +161,7 @@ h3 {
   margin: 25px 0;
 }
 
-div.item {
+div.item-index {
   width: 210px;
   height: 250px;
   border-radius: 10px 10px 0 0;
@@ -174,13 +174,13 @@ div.item {
   margin: 20px auto;
 }
 
-div.item:hover {
+div.item-index:hover {
   background-color: rgba(207, 207, 207, 0.979);
   transform: translateY(-5px);
   transition: 0.4s;
 }
 
-div.item h4 {
+div.item-index h4 {
   color: black;
   font-weight: bold;
 }
@@ -207,7 +207,7 @@ img.item-img {
 }
 
 @media (max-width: 250px) {
-  div.item {
+  div.item-index {
     width: 180px;
     height: 220px;
   }
@@ -301,7 +301,7 @@ img.item-img {
     margin: 0 auto;
   }
 
-  div.item {
+  div.item-index {
     margin: 0 10px;
   }
 }
@@ -335,21 +335,19 @@ img.item-img {
     margin: 0 auto;
   }
 
-  div.item {
+  div.item-index {
     margin: 0 2.4em;
   }
 }
 
 @media (min-width: 1300px) {
-  div.item {
+  div.item-index {
     margin: 0 3.3em;
   }
 }
 
 @media (min-width: 1500px) {
-  div.item {
+  div.item-index {
     margin: 0 5em;
   }
 }
-
-
