@@ -41,32 +41,30 @@ section {
   
 section .card {
     position: relative;
-    width: 280px;
-    height: 400px;
+    width: 600px;
+    height: 290px;
     margin: 30px;
     box-shadow: 20px 20px 50px #12121280;
     border-radius: 15px;
     overflow: hidden;
     display: flex;
-    justify-content: center;
     align-items: center;
     border-top: 1px solid #ffffff80;
     border-left: 1px solid #ffffff80;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(10px);
 }
 
   
 section .card .item {
-    padding: 20px;
-    text-align: center;
     transform: translateY(100px);
     opacity: 0;
     transition: 0.5s;
-    
+    display: flex;
+    justify-content: space-between;
 }
   
 section .card:hover .item {
-    transform: translateY(0px);
+    transform: translateY(60px);
     opacity: 1;
 }
   
@@ -94,11 +92,11 @@ section .card .item p {
 }
 
 .card-1 {
-    background: url(../imagens/card1.jpg);
+    background: url(../imagens/farik.jpg);
 }
 .card-1:hover {
     transition: background .5s;
-    background: url(../imagens/card1h.png);
+    background: url(../imagens/farikOpaci.png);
 }
 
 .card-2 {
@@ -109,37 +107,6 @@ section .card .item p {
     transition: background .5s;
 }
 
-.card-3 {
-    background: url(../imagens/card3.jpg);
-}
-.card-3:hover {
-    background: url(../imagens/card3h.png);
-    transition: background .5s;
-}
-.card-4 {
-    background: url(../imagens/card4.jpg);
-}
-.card-4:hover {
-    transition: background .5s;
-    background: url(../imagens/card4h.png);
-}
-
-.card-5 {
-    background: url(../imagens/card5.jpg);
-}
-.card-5:hover {
-    transition: background .5s;
-    background: url(../imagens/card5h.png);
-}
-
-.card-6 {
-    background: url(../imagens/card6.jpg);
-}
-
-.card-6:hover {
-    transition: background .5s;
-    background: url(../imagens/card6h.png);
-}
 
 @media (min-width: 500px) and (max-width:699.99px){
     .titulo-projetos {
