@@ -95,7 +95,7 @@ section .card .item p {
     background: url(../imagens/farik.jpg);
 }
 .card-1:hover {
-    transition: background .5s;
+    transition: .5s;
     background: url(../imagens/farikOpaci.png);
 }
 
@@ -104,7 +104,7 @@ section .card .item p {
 }
 .card-2:hover {
     background: url(../imagens/card2h.png);
-    transition: background .5s;
+    transition: .5s;
 }
 
 
