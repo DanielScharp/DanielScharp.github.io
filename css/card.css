@@ -11,6 +11,7 @@ body {
 	font-family: Helvetica,Arial,sans-serif;
 }
 .titulo-projetos {
+    margin: 35px 0;
     text-align: center;
 }
   
@@ -43,7 +44,7 @@ section .card {
     position: relative;
     width: 600px;
     height: 290px;
-    margin: 30px;
+    margin: 15px;
     box-shadow: 20px 20px 50px #12121280;
     border-radius: 15px;
     overflow: hidden;
@@ -76,7 +77,12 @@ section .card .item h2 {
     font-size: 8em;
 	letter-spacing: -0.06em;
     pointer-events: none;
-    color: #ffffff57;
+    color: #00000057;
+}
+
+section .card .item h2.branco {
+    color: #fdfdfd57;
+
 }
   
 section .card .item h3 {
@@ -100,10 +106,10 @@ section .card .item p {
 }
 
 .card-2 {
-    background: url(../imagens/card2.jpg);
+    background: url(../imagens/quadro.jpg);
 }
 .card-2:hover {
-    background: url(../imagens/card2h.png);
+    background: url(../imagens/quadroOpaci.png);
     transition: .5s;
 }
 
