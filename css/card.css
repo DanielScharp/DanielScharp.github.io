@@ -113,11 +113,31 @@ section .card .item p {
     transition: .5s;
 }
 
+@media (max-width:768px) {
+    section .card {
+        width: 250px;
+        height: 290px;
+    }
+
+    .img-site {
+        display: none;
+    }
+
+    section .card .item h2 {
+        font-size: 6em;
+    }
+
+    section .card .item h3 {
+        font-size: 1.3em;
+    }
+}
 
 @media (min-width: 500px) and (max-width:699.99px){
     .titulo-projetos {
         font-size: 1.8rem;
     }
+
+
 }
 
 @media (min-width: 700px) and (max-width:999.99px) {
