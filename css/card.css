@@ -115,8 +115,6 @@ section .card .item p {
 
 @media (max-width:768px) {
     section .card {
-        width: 250px;
-        height: 290px;
     }
 
     .img-site {
