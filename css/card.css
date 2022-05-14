@@ -84,6 +84,7 @@ section .card .item h2.branco {
     color: #fdfdfd57;
 
 }
+
   
 section .card .item h3 {
     font-size: 1.8em;
@@ -113,9 +114,31 @@ section .card .item p {
     transition: .5s;
 }
 
+.card-3 {
+    background: url(../imagens/Netflix.jpg);
+}
+.card-3:hover {
+    background: url(../imagens/Netflix.png);
+    transition: .5s;
+}
+
+.card-4 {
+    background: url(../imagens/Calculadora.jpg);
+}
+.card-4:hover {
+    background: url(../imagens/Calculadora.png);
+    transition: .5s;
+}
+
+.card-5 {
+    background: url(../imagens/Vidros.jpg);
+}
+.card-5:hover {
+    background: url(../imagens/Vidros.png);
+    transition: .5s;
+}
+
 @media (max-width:768px) {
-    section .card {
-    }
 
     .img-site {
         display: none;
