@@ -99,11 +99,11 @@ section .card .item p {
 }
 
 .card-1 {
-    background: url(../imagens/farik.jpg);
+    background: url(../imagens/BrasilTurismo.jpg);
 }
 .card-1:hover {
     transition: .5s;
-    background: url(../imagens/farikOpaci.png);
+    background: url(../imagens/BrasilTurismo.png);
 }
 
 .card-2 {
